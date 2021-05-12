@@ -46,3 +46,29 @@ git pull origin master
 
 revenir en arriére tous en supprimant les étapes intermédiaires 
 git revert 
+
+afficher les tag existant 
+git tag
+
+créer un tag
+git tag '-a si on veut mettre un com' "nom tag" '-m'
+
+push un tag 
+git push origin "nom du tag"
+
+push tous les tag
+git push --tag
+
+savoir ou je suis 
+pwd 
+
+upload sur github 
+git push
+
+download en local 
+git pull
+
+conflit :
+il y a un conflit quand deux personne modifie la même ligne de code git ne sait pas lors quel version prendre il affiche donc une erreur 
+du coup il faut retourner sur son code et la vscode affiche les deux versions dans des coloris différents il suffit de corriger le code manuellement 
+puis de créer un nouveau commit "conflict merge par exemple " puis de la push une nouvelle fois pour ecraser le conflit précédent 
